@@ -14,6 +14,7 @@
 		4A06023E234E31320092AE41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A06023C234E31320092AE41 /* LaunchScreen.storyboard */; };
 		4A060249234E31320092AE41 /* iosAutomationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A060248234E31320092AE41 /* iosAutomationTests.swift */; };
 		4A060254234E31320092AE41 /* iosAutomationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A060253234E31320092AE41 /* iosAutomationUITests.swift */; };
+		4A060262234E4F800092AE41 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A060261234E4F800092AE41 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4A06024F234E31320092AE41 /* iosAutomationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosAutomationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A060253234E31320092AE41 /* iosAutomationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosAutomationUITests.swift; sourceTree = "<group>"; };
 		4A060255234E31320092AE41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A060261234E4F800092AE41 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				4A060233234E312F0092AE41 /* AppDelegate.swift */,
 				4A060235234E312F0092AE41 /* ViewController.swift */,
+				4A060261234E4F800092AE41 /* ListViewController.swift */,
 				4A060237234E312F0092AE41 /* Main.storyboard */,
 				4A06023A234E31320092AE41 /* Assets.xcassets */,
 				4A06023C234E31320092AE41 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				4A060236234E312F0092AE41 /* ViewController.swift in Sources */,
 				4A060234234E312F0092AE41 /* AppDelegate.swift in Sources */,
+				4A060262234E4F800092AE41 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

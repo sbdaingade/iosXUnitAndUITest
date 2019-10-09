@@ -26,9 +26,26 @@ class iosAutomationUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testLoginSuccess()
+    {
+        
+      let userName = "sachin"
+        let password = "ios123"
+        
+        let app = XCUIApplication()
+        let userTextField = app.textFields["User "]
+        userTextField.tap()
+        userTextField.typeText(userName)
+        XCTAssertTrue(userTextField.exists)
+        
+      let passwordTextField = app.secureTextFields["Password"]
+        passwordTextField.tap()
+        passwordTextField.typeText(password)
+        XCTAssertTrue(passwordTextField.exists)
+        
+        app.buttons["Login"].tap()
+        
+        
     }
 
 }
